@@ -289,7 +289,7 @@ function similarity(base, match) {
     
     var score = string_score(b, m);
 
-    if (match.length > 0) {
+    if (m.length > 0) {
         try {
             // bonus for substring
             if (new RegExp('\\b' + escapeForRegExp(m)).test(b)) {
