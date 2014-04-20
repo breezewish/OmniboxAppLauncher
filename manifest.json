@@ -3,7 +3,7 @@
   "name": "Omnibox App Launcher",
   "short_name": "App Launcher",
   "description": "Launch app from your Omnibox! (type 'app')",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "omnibox": { "keyword" : "app" },
   "homepage_url": "https://github.com/breeswish/OmniboxAppLauncher",
   "permissions": [
