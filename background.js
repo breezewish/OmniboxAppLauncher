@@ -464,7 +464,7 @@ function onInputEntered(text) {
         // guess selection & study
         var appscore = getMatchedAppScore(text, 1, true);
         if (appscore.length > 0) {
-            var desiredApp = applist[0].app;
+            var desiredApp = appscore[0].app;
             study(lastInput, desiredApp);
             chrome.management.launchApp(desiredApp.id);
         }
